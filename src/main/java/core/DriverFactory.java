@@ -18,11 +18,11 @@ public class DriverFactory {
             switch (Propriedades.browser) {
                 //case FIREFOX: driver = new FirefoxDriver(); break;
                 case CHROME:
-                    System.setProperty("webdriver.gecko.driver","chromedriver.exe");
+                    System.setProperty("webdriver.chrome.driver","chromedriver.exe");
                     driver = new ChromeDriver(); break;
             }
             driver.manage().window().setSize(new Dimension(1200, 765));
-            driver.get("https://sales-emulator-comercial.agibank-hom.in/banco-pagador");
+            driver.get("http://sampleapp.tricentis.com/101/app.php");
         }
         return driver;
     }
