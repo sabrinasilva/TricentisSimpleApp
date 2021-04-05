@@ -8,6 +8,7 @@
 * Selenium WebDriver 3.14 <br>
 * Cucumber 6.9 <br>
 * IDE Eclipse 6.9 <br>
+* ChromeDriver 89.0
 
 ### Como rodar o teste utilizando IDE Eclipse:
 
